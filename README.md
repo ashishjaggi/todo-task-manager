@@ -3,8 +3,9 @@ The to-do list application is a web-based application that allows users to creat
 
 To create the application, Node.js is used to set up the server and handle the logic of the application. Express.js is used to create the routes for the application, allowing the user to interact with the application through a web browser. EJS is used to create the views for the reset password page, allowing the user to see the list of tasks and the form to add new tasks.
 
-sequelize  are used to store the tasks in a database, allowing the user to add, delete, and update tasks as needed. Nodemon is used to monitor changes to the code and automatically restart the server, making it easy to develop and test the application.
+Sequelize  are used to store the tasks in a database, allowing the user to add, delete, and update tasks as needed. Nodemon is used to monitor changes to the code and automatically restart the server, making it easy to develop and test the application.
 
+Technologies Used: NodeJS, ExpressJS, EJS, CSS, JavaScript, Nodemon, Sequelize.
 ## Setup
 
 1. Clone the repository.
@@ -23,3 +24,6 @@ sequelize  are used to store the tasks in a database, allowing the user to add, 
 - **POST /api/createTask**: Create a new task.
 - **PUT /api/updateTask/:id**: Update a task.
 - **DELETE /api/deleteTask/:id**: Delete a task.
+
+## Swagger endpoint for api 
+http://localhost:3000/api/swaggerdocs/
